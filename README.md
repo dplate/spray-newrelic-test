@@ -22,6 +22,9 @@ Same as before, but encapsulate inside an additional future
 #### http://localhost:8080/with-future-onsuccess
 Same as before, but using the onSuccess directive of Spray
 
+#### http://localhost:8080/with-java-thread
+Same as before, but using an additional java thread
+
 ### Error logging
 
 #### http://localhost:8080/error-without-future
@@ -29,6 +32,9 @@ An endpoint which just throws an exception
 
 #### http://localhost:8080/error-with-future
 Same as before, but encapsulate inside an additional future
+
+#### http://localhost:8080/error-with-java-thread
+Same as before, but using an additional java thread
 
 ### More realistic example
 
@@ -45,10 +51,12 @@ Same as before, but encapsulate inside an additional future
 - :white_check_mark: without-future: Works
 - :white_check_mark: with-future: Works
 - :white_check_mark: with-future-onsuccess: Works
+- :x: with-java-thread: Nothing inside the java thread is recorded and the response time is wrong
 - :white_check_mark: error-without-future: Works
 - :white_check_mark: error-with-future: Works
 - :white_check_mark: spray-client-without-future: Works
 - :white_check_mark: spray-client-with-future: Works
+- :white_check_mark: error-with-java-thread: Works
 
 ### Java Agent 3.25.0
 
