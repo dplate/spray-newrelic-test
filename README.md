@@ -40,6 +40,16 @@ Same as before, but encapsulate inside an additional future
 
 ## Results
 
+### Java Agent 3.26.0
+
+- :white_check_mark: without-future: Works
+- :white_check_mark: with-future: Works
+- :white_check_mark: with-future-onsuccess: Works
+- :white_check_mark: error-without-future: Works
+- :white_check_mark: error-with-future: Works
+- :white_check_mark: spray-client-without-future: Works
+- :white_check_mark: spray-client-with-future: Works
+
 ### Java Agent 3.25.0
 
 - :white_check_mark: without-future: Works
