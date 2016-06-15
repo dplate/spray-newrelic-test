@@ -46,6 +46,18 @@ Same as before, but encapsulate inside an additional future
 
 ## Results
 
+### Java Agent 3.29.0
+
+- :white_check_mark: without-future: Works
+- :white_check_mark: with-future: Works
+- :white_check_mark: with-future-onsuccess: Works
+- :white_check_mark: with-java-thread: Works
+- :white_check_mark: error-without-future: Works
+- :white_check_mark: error-with-future: Works
+- :white_check_mark: spray-client-without-future: Works
+- :white_check_mark: spray-client-with-future: Works
+- :white_check_mark: error-with-java-thread: Works
+
 ### Java Agent 3.26.0
 
 - :white_check_mark: without-future: Works
